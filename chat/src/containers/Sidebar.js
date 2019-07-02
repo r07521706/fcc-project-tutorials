@@ -7,5 +7,5 @@ import SidebarComponent from '../components/Sidebar'
 //因为返回了具有 users 属性的对象，所以 MyComp 会有名为 users 的 props 字段。
 export const Sidebar = connect(state => ({
 	users: state.users
-}), {})(SidebarComponent)
+}), {})(SidebarComponent) //透過這個步驟 SidebarComponent 的props有了 users的這個屬性
 
